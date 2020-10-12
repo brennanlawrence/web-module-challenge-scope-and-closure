@@ -42,6 +42,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+When you invoke something inside of a function the function first checks inside its scope, then outside its scope. Closure is the way a function will find the definition of a variable both inside and outside its scope, in that order.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +66,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+Closure is used here when the function is called which has an anynomous function. 
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+dansRoll is different each time unless it randomly calls the same number twice.
+
 c. What is the lexical scope of `newRoll`? 
+
+newRoll lives inside the function insed of personelDice.
 
 ### Task 2c - Exit Ticket
 
